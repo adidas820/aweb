@@ -1,0 +1,86 @@
+/* Variables de color */
+:root {
+    --red: #fb4934;
+    --green: #b8bb26;
+    --yellow: #fabd2f;
+    --dark-grey: #3c3836ff;
+    --light-grey: #504945ff;
+    --beige: #ebdbb2;
+    --blue: #83a598;
+}
+.red {
+    color: var(--red);
+}
+.green {
+    color: var(--green);
+}
+.blue {
+    color: var(--blue);
+}
+.yellow {
+    color: var(--yellow);
+}
+.beige {
+    color: var(--beige);
+}
+
+/* Global */
+html {
+    background-color: var(--dark-grey);
+}
+body {
+    background-color: var(--dark-grey)!important;
+}
+span {
+    display: inline-flex;
+    transition: transform 0.1s ease;
+}
+span:hover {
+    transform: scale(1.1);
+}
+
+/* Home y tal (?) */
+#landing {
+    margin-top: 5%;
+    display: flex;
+    height: 50vh;
+    background-color: var(--dark-grey);
+}
+#landing-txt {
+    height: 50vh;
+    width: 50%;
+    margin-left: 10%;
+}
+#landing-txt #title {
+    height: 10%;
+}
+#landing-txt #text {
+    color: var(--beige);
+    font-size: 14pt;
+    height: 30%;
+    margin-top: 5%;
+    margin-right: 10%;
+    display: flex;
+}
+#landing-txt #about {
+    height: 51.5%;
+    display: flex;
+    align-items: center;
+}
+#landing-img {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+/* Piester(Footer) */
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: var(--light-grey);
+}
