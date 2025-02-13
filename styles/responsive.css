@@ -1,0 +1,27 @@
+@media only screen and (max-width: 982px) {
+        #landing-txt #text {
+            margin-top: 10%;
+        }
+    }
+
+@media only screen and (max-width: 450px) {
+        #landing-txt #text {
+            margin-top: 15%;
+        }
+        #landing-txt #about {
+            align-items: center;
+        }
+        #landing-txt {
+            width: 90%;
+        }
+        #landing {
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+        }
+        #landing-img {
+            justify-content: center;
+            width: 50%;
+            margin-left: 20%;
+        }
+    }
