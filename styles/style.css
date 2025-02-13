@@ -24,6 +24,12 @@
     color: var(--beige);
 }
 
+/* No tengo organización asi que aqui va la trash */
+.size-svg {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
 /* Global */
 html {
     background-color: var(--dark-grey);
@@ -83,4 +89,13 @@ footer {
     height: 10vh;
     width: 100%;
     background-color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: var(--beige);
+}
+
+footer a {
+    color: var(--beige);
 }
