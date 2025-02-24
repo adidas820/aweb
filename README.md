@@ -1,6 +1,13 @@
 # Proyecto final de aweb
 [LA página :D](https://miauteca.netlify.app "Miauteca")
 (probablemente no este en su versión mas avanzada pq me olvido de hacer commits)
+
+## To do list
+- [x] Navbar colors
+- [ ] CATalog page
+- [ ] About us
+- [ ] Full web responsive
+
 ## Lo q debe de tener **(?)**
 ### No le voy a hacer ni caso pero es para tenerlos cerca
 - Os criterios vistos nas bases de desenvolvemento Web
@@ -19,11 +26,6 @@
 
 - Deberá incluír, polo menos, 5 enlaces no menú principal
 
-## To do list
-- [x] Navbar colors
-- [ ] CATalog page
-- [ ] About us
-- [ ] Full web responsive
 
 ![miau](./img/miau.png)
 
