@@ -19,6 +19,12 @@
 
 - Deberá incluír, polo menos, 5 enlaces no menú principal
 
+## To do list
+- [x] Navbar colors
+- [ ] CATalog page
+- [ ] About us
+- [ ] Full web responsive
+
 ![miau](./img/miau.png)
 
 [^1]: No se yo si lo va a ser
