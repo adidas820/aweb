@@ -93,7 +93,27 @@ span:hover {
     overflow: hidden; 
 }
 
-/* Piester(Footer) */
+/* NavBar */
+.mycontainer {
+    margin-left: 10% !important;
+}
+
+.bg-nav {
+    background-color: var(--light-grey);
+}
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+    --bs-navbar-color: var(--beige) !important;
+    --bs-navbar-hover-color: #f0eadb !important;
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25) !important;
+    --bs-navbar-active-color: #f0eadb !important;
+    --bs-navbar-brand-color: var(--beige) !important;
+    --bs-navbar-brand-hover-color: #f0eadb !important;
+    --bs-navbar-toggler-border-color: var(--beige) !important;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Piester(Footer lol) */
 footer {
     position: fixed;
     bottom: 0;
