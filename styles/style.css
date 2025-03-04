@@ -131,3 +131,26 @@ footer {
 footer a {
     color: var(--beige);
 }
+
+/* Catalog */
+
+#cats {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.cat {
+    display: flex;
+    width: 40%;
+}
+
+.catimg {
+    width: 40%;
+}
+
+.cattext {
+    color: var(--beige);
+    width: 60%;
+    margin-left: 3%;
+}
