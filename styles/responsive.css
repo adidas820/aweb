@@ -24,4 +24,18 @@
             width: 50%;
             margin-left: 20%;
         }
+        
+    }
+
+    @media only screen and (max-width: 650px) {
+        .cat {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .catimg {
+            width: 100%;
+        }
+        .cattext {
+            width: 100%;
+        }
     }
