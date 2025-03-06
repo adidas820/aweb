@@ -4,7 +4,7 @@
 
 ## To do list
 - [x] Navbar colors
-- [ ] CATalog page
+- [x] CATalog page
 - [ ] About us
 - [ ] Full web responsive
 

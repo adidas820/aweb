@@ -115,8 +115,6 @@ span:hover {
 
 /* Piester(Footer lol) */
 footer {
-    position: fixed;
-    bottom: 0;
     height: 10vh;
     width: 100%;
     background-color: var(--light-grey);
@@ -126,6 +124,11 @@ footer {
     font-size: 1.5rem;
     font-family: Nunito;
     color: var(--beige);
+}
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
 }
 
 footer a {
@@ -165,4 +168,27 @@ footer a {
 
 .cattext p {
     font-size: 15pt;
+}
+
+/* About us */
+
+#abouttext {
+    padding: 5%;
+    display: flex;
+    justify-self: center;
+    width: 60%;
+    font-size: 15pt;
+    color: var(--beige);
+}
+
+#abouttext2 {
+    padding: 20px;
+}
+
+#aboutimg {
+    padding: 20px;
+}
+
+#aboutimg img {
+    width: 300px;
 }

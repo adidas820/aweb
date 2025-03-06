@@ -27,7 +27,7 @@
         
     }
 
-    @media only screen and (max-width: 650px) {
+    @media only screen and (max-width: 750px) {
         .cat {
             flex-direction: row;
             flex-wrap: wrap;
@@ -39,5 +39,11 @@
         .cattext {
             width: 100%;
             padding: 20px;
+        }
+        #abouttext {
+            flex-direction: column;
+            width: 80%;
+            padding: 0;
+            margin-bottom: 20%;
         }
     }
